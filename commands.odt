@@ -1,0 +1,5 @@
+cd ..
+hadoop fs -mkdir /Titanic
+File into Hadoop Environment:
+hadoop fs -copyFromLocal TitanicData.txt /input1
+hadoop jar titanic.jar titanicsource /input1 /Titanic/output
